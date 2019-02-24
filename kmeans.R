@@ -1,0 +1,17 @@
+library(e1071)
+library(rpart)
+library(caTools)
+library(class)
+library(dplyr)
+library(plyr)
+library(lubridate)
+set.seed(9000)
+k.data1 <- read.csv()
+
+
+train <- subset(subset_mydata, temp_field==TRUE)
+test <- subset(subset_mydata, temp_field==FALSE)
+summary(train)
+summary(test)
+head(train)
+head(test)
